@@ -53,6 +53,12 @@ class Report:
         self.data['Time Entered Date'] = date_time
         self.data['Year-Month'] = year + '-' + month.str.zfill(2)
 
+    def __repr__(self):
+        return self.data.__repr__()
+
+    def __str__(self):
+        return str(self.data)
+
     @staticmethod
     def charge_code_regex(text):
         """Get the charge code "12765.07.01.01" from text if the charge code is

@@ -36,6 +36,12 @@ class Estimate:
         self.data['charge_code'] = charge_codes
         self.data['eid'] = eids
 
+    def __repr__(self):
+        return self.data.__repr__()
+
+    def __str__(self):
+        return str(self.data)
+
     @staticmethod
     def charge_code_regex(text):
         """Get the charge code "12765.07.01.01" from text if the charge code is
