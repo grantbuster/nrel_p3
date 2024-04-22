@@ -52,7 +52,7 @@ class Estimate:
         out : str | None
             Charge code string or None if not found
         """
-        pattern = r'\b[A-Z]{4}\.(\d+\.\d+\.\d+\.\d+)'
+        pattern = r'\b(?:[A-Z]{4}|\d+)\.(\d+\.\d+\.\d+\.\d+)'
         match = re.search(pattern, str(text))
         if match:
             return match.group(1)
@@ -74,6 +74,20 @@ class Estimate:
             return match.group(1)
         else:
             return None
+
+    def remap_charge_codes(self, map):
+        """If the pricing tool doesnt have charge codes in the effort names,
+        use this function to add them.
+
+        Parameters
+        ----------
+        map : dict
+            Mapping of effort name (key) to charge code (value)
+        """
+        for effort, cc in map.items():
+            mask = self.data['Effort'] == effort
+            if mask.any():
+                self.data.loc[mask, 'charge_code'] = cc
 
     def plan(self, filters=None):
         """Extract a timeseries plan for the project.
