@@ -105,28 +105,25 @@ class Report:
         eids = {eid: worker for worker, eid in zip(worker_list, eid_list)}
         return eids
 
-    def add_rates(self, rates, extra=None):
+    def add_rates(self, rates):
         """Workday tables only have hours charged by default. Take in a rates
         table from the pricing tool to calculate actual costs.
 
         Parameters
         ----------
-        rates : nrel_p3.pricing_tool.Estimate.rates
-            A rates pd.Series table from the Estimate object
-        extra : dict
-            If rate SLR categories are used in workday but not found in the
-            pricing tool, you can enter extra options here, e.g.,
+        rates : dict | pd.Series
+            Input labor rates here either from
+            nrel_p3.pricing_tool.Estimate.rates or with a custom dict, e.g.,
             {'NEW_SLR': 100}
         """
+
         for i, row in self.data.iterrows():
             slr = row['SLR']
             rate = np.nan
-            if isinstance(extra, dict) and slr in extra:
-                rate = extra[slr]
-            elif isinstance(slr, str) and slr in rates:
+            if isinstance(slr, str) and slr in rates:
                 rate = rates[slr]
-
-            self.data.at[i, 'cost'] = row['Total Hours (Time Tracking)'] * rate
+                cost = row['Total Hours (Time Tracking)'] * rate
+                self.data.at[i, 'cost'] = cost
 
     @property
     def missing_rates(self):

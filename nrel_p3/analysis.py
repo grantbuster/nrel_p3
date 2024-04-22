@@ -5,6 +5,7 @@ Spending analysis and comparative tools
 import re
 import numpy as np
 import pandas as pd
+from warnings import warn
 from nrel_p3.utilities import filter, employee_id_regex
 
 
@@ -22,6 +23,10 @@ class Analysis:
         """
         self.pt_estimate = pt_estimate
         self.wd_report = wd_report
+
+        self.wd_report.add_rates(self.pt_estimate.rates)
+        if any(self.wd_report.missing_rates):
+            warn(f'Need rate costs for: {self.wd_report.missing_rates}')
 
     def get_spend_table(self, filters=None):
         """Get a timeseries spend table for the whole project, one charge code,
