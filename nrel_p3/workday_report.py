@@ -1,7 +1,7 @@
 """
 Interface for workday reports
 """
-
+import glob
 import re
 import numpy as np
 import pandas as pd
@@ -39,8 +39,18 @@ class Report:
         fp_xlsx : str
             Filepath to NREL workday export from the following report:
             "Task Number Report for Task Managers - Not Grouped".
+            Can also be a list of these reports or a string with a wild*card
+            for multiple reports (one for each charge code)
         """
-        self.data = pd.read_excel(fp_xlsx)
+
+        if isinstance(fp_xlsx, str):
+            fp_xlsx = glob.glob(fp_xlsx)
+
+        self.data = []
+        for fp in fp_xlsx:
+            self.data.append(pd.read_excel(fp))
+
+        self.data = pd.concat(self.data, ignore_index=True)
 
         date_time = pd.to_datetime(self.data['Time Entered Date'])
         year = date_time.dt.year.astype(str)
@@ -95,7 +105,7 @@ class Report:
         eids = {eid: worker for worker, eid in zip(worker_list, eid_list)}
         return eids
 
-    def add_costs(self, rates, extra=None):
+    def add_rates(self, rates, extra=None):
         """Workday tables only have hours charged by default. Take in a rates
         table from the pricing tool to calculate actual costs.
 
@@ -117,6 +127,15 @@ class Report:
                 rate = rates[slr]
 
             self.data.at[i, 'cost'] = row['Total Hours (Time Tracking)'] * rate
+
+    @property
+    def missing_rates(self):
+        """Get a list of SLR names that are missing their rates
+        (cost per hour). Use ``add_rates()`` to add these rates to estimate
+        labor costs."""
+        missing_cost = np.isnan(self.data['cost'])
+        missing_rates = list(self.data.loc[missing_cost, 'SLR'].unique())
+        return missing_rates
 
     def actuals(self, filters=None):
         """Run the calculation of actual charges through time
