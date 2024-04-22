@@ -42,9 +42,10 @@ def filter(data, filters):
     for key, value in filters.items():
         if value is not None:
             if isinstance(value, (str, int, float)):
-                imask = data[key] == value
+                imask = data[key].astype(str) == str(value)
             elif isinstance(value, (list, tuple)):
-                imask = data[key].isin(value)
+                value = [str(v) for v in value]
+                imask = data[key].astype(str).isin(value)
             mask &= imask
             if not any(imask):
                 warn(f'Filter {key}=={value} resulted in zero results')
