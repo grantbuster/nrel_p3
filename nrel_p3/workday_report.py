@@ -79,6 +79,22 @@ class Report:
 
         return extracted
 
+    @property
+    def worker_map(self):
+        """Get a dictionary mapping {worker_name: employee_id}"""
+        worker_list = list(self.data['Worker'])
+        eid_list = list(self.data['eid'])
+        workers = {worker: eid for worker, eid in zip(worker_list, eid_list)}
+        return workers
+
+    @property
+    def eid_map(self):
+        """Get a dictionary mapping {employee_id: worker_name}"""
+        worker_list = list(self.data['Worker'])
+        eid_list = list(self.data['eid'])
+        eids = {eid: worker for worker, eid in zip(worker_list, eid_list)}
+        return eids
+
     def add_costs(self, rates, extra=None):
         """Workday tables only have hours charged by default. Take in a rates
         table from the pricing tool to calculate actual costs.
@@ -108,8 +124,11 @@ class Report:
         Parameters
         ----------
         filters : dict | None
-            Set of filters where keys are columns in the estimate file and
-            values are one or more items to sub select in the column.
+            Set of filters where keys are columns in the workday report file
+            and values are one or more items to sub select in the column. For
+            example,
+            ``filters={'charge_code': '12765.07.01.01', 'eid': '19864'}``
+            will return data for a single charge code for a single person.
 
         Returns
         -------
@@ -118,9 +137,10 @@ class Report:
             index and columns: actual_cost, actual_cost_cumulative
         """
 
-        subdf = self.data
         if filters is not None:
             subdf = filter(self.data, filters)
+        else:
+            subdf = self.data.copy()
 
         actuals = subdf.groupby('Year-Month')[['cost']].sum()
         actuals['actual_cost_cumulative'] = actuals['cost'].cumsum()

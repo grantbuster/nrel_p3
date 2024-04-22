@@ -82,7 +82,10 @@ class Estimate:
         ----------
         filters : dict | None
             Set of filters where keys are columns in the estimate file and
-            values are one or more items to sub select in the column.
+            values are one or more items to sub select in the column. For
+            example,
+            ``filters={'charge_code': '12765.07.01.01', 'eid': '19864'}``
+            will return data for a single charge code for a single person.
 
         Returns
         -------
@@ -93,6 +96,8 @@ class Estimate:
 
         if filters is not None:
             subdf = filter(self.data, filters)
+        else:
+            subdf = self.data.copy()
 
         subdf = subdf.dropna(subset='LoadedCost')
         subdf = subdf.groupby('Year-Month').sum()
