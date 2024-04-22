@@ -68,11 +68,12 @@ class Analysis:
             'eid', 'worker'
         """
 
+        if filters is None:
+            filters = {}
+
         df = []
         for eid, worker in self.wd_report.eid_map.items():
-
-            filters = {'charge_code': '12765.07.01.01', 'eid': eid}
-
+            filters['eid'] = eid
             pt_df = self.pt_estimate.plan(filters)
             wd_df = self.wd_report.actuals(filters)
             idf = pt_df.join(wd_df, how='outer')
