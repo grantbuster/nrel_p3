@@ -120,7 +120,7 @@ class Report:
         for i, row in self.data.iterrows():
             slr = row['SLR']
             rate = np.nan
-            if isinstance(slr, str) and slr in rates:
+            if slr in rates:
                 rate = rates[slr]
                 cost = row['Total Hours (Time Tracking)'] * rate
                 self.data.at[i, 'cost'] = cost
