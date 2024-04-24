@@ -5,8 +5,12 @@ NREL Personal Project Planning (P3)
 Code for doing personal project planning for NREL projects using workday and
 pricing tool exports.
 
+See the example `here <https://grantbuster.github.io/nrel_p3/example.html>`_ to get started.
+
 Installing nrel_p3
 ==================
+
+.. inclusion-install
 
 #. Clone the repo: ``git clone git@github.com:grantbuster/nrel_p3.git``
 #. Create ``nrel_p3`` environment and install package

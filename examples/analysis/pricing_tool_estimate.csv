@@ -1,0 +1,121 @@
+id,Effort,LineItem,Name/Note,CC,SLR Category,offsite,FY,Year,Month,Year-Month,mFTE,Hours,UnloadedCost,AllocationCost,LoadedCost
+1,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Jan,2024-01,1,100,1000,,1000
+1,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jan,2024-01,,,,100,
+2,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Feb,2024-02,1,100,1000,,1000
+2,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Feb,2024-02,,,,100,
+3,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Mar,2024-03,1,100,1000,,1000
+3,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Mar,2024-03,,,,100,
+4,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Apr,2024-04,1,100,1000,,1000
+4,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Apr,2024-04,,,,100,
+5,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,May,2024-05,1,100,1000,,1000
+5,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,May,2024-05,,,,100,
+6,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Jun,2024-06,1,100,1000,,1000
+6,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jun,2024-06,,,,100,
+7,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Jul,2024-07,1,100,1000,,1000
+7,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jul,2024-07,,,,100,
+8,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Aug,2024-08,1,100,1000,,1000
+8,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Aug,2024-08,,,,100,
+9,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2024,2024,Sept,2024-09,1,100,1000,,1000
+9,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Sept,2024-09,,,,100,
+10,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2025,2024,Oct,2024-10,1,100,1000,,1000
+10,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Oct,2024-10,,,,100,
+11,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2025,2024,Nov,2024-11,1,100,1000,,1000
+11,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Nov,2024-11,,,,100,
+12,Effort #1 ABCD.12345.01.02.03,Labor,"Buster, Grant (33333)",Center,researcher,N,FY2025,2024,Dec,2024-12,1,100,1000,,1000
+12,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Dec,2024-12,,,,100,
+1,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Jan,2024-01,1,100,1000,,1000
+1,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jan,2024-01,,,,100,
+2,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Feb,2024-02,1,100,1000,,1000
+2,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Feb,2024-02,,,,100,
+3,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Mar,2024-03,1,100,1000,,1000
+3,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Mar,2024-03,,,,100,
+4,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Apr,2024-04,1,100,1000,,1000
+4,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Apr,2024-04,,,,100,
+5,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,May,2024-05,1,100,1000,,1000
+5,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,May,2024-05,,,,100,
+6,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Jun,2024-06,1,100,1000,,1000
+6,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jun,2024-06,,,,100,
+7,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Jul,2024-07,1,100,1000,,1000
+7,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jul,2024-07,,,,100,
+8,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Aug,2024-08,1,100,1000,,1000
+8,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Aug,2024-08,,,,100,
+9,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2024,2024,Sept,2024-09,1,100,1000,,1000
+9,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Sept,2024-09,,,,100,
+10,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2025,2024,Oct,2024-10,1,100,1000,,1000
+10,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Oct,2024-10,,,,100,
+11,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2025,2024,Nov,2024-11,1,100,1000,,1000
+11,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Nov,2024-11,,,,100,
+12,Effort #1 ABCD.12345.01.02.03,Labor,"Benton, Brandon (22222)",Center,researcher,N,FY2025,2024,Dec,2024-12,1,100,1000,,1000
+12,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Dec,2024-12,,,,100,
+1,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jan,2024-01,1,100,1000,,1000
+1,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jan,2024-01,,,,100,
+2,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Feb,2024-02,1,100,1000,,1000
+2,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Feb,2024-02,,,,100,
+3,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Mar,2024-03,1,100,1000,,1000
+3,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Mar,2024-03,,,,100,
+4,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Apr,2024-04,1,100,1000,,1000
+4,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Apr,2024-04,,,,100,
+5,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,May,2024-05,1,100,1000,,1000
+5,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,May,2024-05,,,,100,
+6,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jun,2024-06,1,100,1000,,1000
+6,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jun,2024-06,,,,100,
+7,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jul,2024-07,1,100,1000,,1000
+7,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jul,2024-07,,,,100,
+8,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Aug,2024-08,1,100,1000,,1000
+8,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Aug,2024-08,,,,100,
+9,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Sept,2024-09,1,100,1000,,1000
+9,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Sept,2024-09,,,,100,
+10,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Oct,2024-10,1,100,1000,,1000
+10,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Oct,2024-10,,,,100,
+11,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Nov,2024-11,1,100,1000,,1000
+11,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Nov,2024-11,,,,100,
+12,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Dec,2024-12,1,100,1000,,1000
+12,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Dec,2024-12,,,,100,
+1,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jan,2024-01,1,100,1000,,1000
+1,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jan,2024-01,,,,100,
+2,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Feb,2024-02,1,100,1000,,1000
+2,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Feb,2024-02,,,,100,
+3,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Mar,2024-03,1,100,1000,,1000
+3,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Mar,2024-03,,,,100,
+4,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Apr,2024-04,1,100,1000,,1000
+4,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Apr,2024-04,,,,100,
+5,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,May,2024-05,1,100,1000,,1000
+5,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,May,2024-05,,,,100,
+6,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jun,2024-06,1,100,1000,,1000
+6,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jun,2024-06,,,,100,
+7,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Jul,2024-07,1,100,1000,,1000
+7,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jul,2024-07,,,,100,
+8,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Aug,2024-08,1,100,1000,,1000
+8,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Aug,2024-08,,,,100,
+9,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2024,2024,Sept,2024-09,1,100,1000,,1000
+9,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Sept,2024-09,,,,100,
+10,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Oct,2024-10,1,100,1000,,1000
+10,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Oct,2024-10,,,,100,
+11,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Nov,2024-11,1,100,1000,,1000
+11,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Nov,2024-11,,,,100,
+12,Effort #1 ABCD.12345.01.02.03,Labor,TBD,Center,researcher,N,FY2025,2024,Dec,2024-12,1,100,1000,,1000
+12,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Dec,2024-12,,,,100,
+1,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Jan,2024-01,1,100,1000,,1000
+1,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jan,2024-01,,,,100,
+2,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Feb,2024-02,1,100,1000,,1000
+2,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Feb,2024-02,,,,100,
+3,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Mar,2024-03,1,100,1000,,1000
+3,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Mar,2024-03,,,,100,
+4,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Apr,2024-04,1,100,1000,,1000
+4,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Apr,2024-04,,,,100,
+5,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,May,2024-05,1,100,1000,,1000
+5,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,May,2024-05,,,,100,
+6,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Jun,2024-06,1,100,1000,,1000
+6,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jun,2024-06,,,,100,
+7,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Jul,2024-07,1,100,1000,,1000
+7,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Jul,2024-07,,,,100,
+8,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Aug,2024-08,1,100,1000,,1000
+8,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Aug,2024-08,,,,100,
+9,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2024,2024,Sept,2024-09,1,100,1000,,1000
+9,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2024,2024,Sept,2024-09,,,,100,
+10,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2025,2024,Oct,2024-10,1,100,1000,,1000
+10,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Oct,2024-10,,,,100,
+11,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2025,2024,Nov,2024-11,1,100,1000,,1000
+11,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Nov,2024-11,,,,100,
+12,Effort #1 ABCD.12345.01.02.03,Labor,"Vimmerstedt, Laura (77777)",Center,researcher,N,FY2025,2024,Dec,2024-12,1,100,1000,,1000
+12,Effort #1 ABCD.12345.01.02.03,Allocation,Fee,Center,researcher,N,FY2025,2024,Dec,2024-12,,,,100,
