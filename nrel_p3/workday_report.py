@@ -32,6 +32,10 @@ class Report:
 
     """
 
+    # columns required to be in the workday report spreadsheet
+    REQ_COL = ('Reported Project Plan Task', 'Total Hours (Time Tracking)',
+               'Time Entered Date', 'Worker', 'SLR')
+
     def __init__(self, fp_xlsx):
         """
         Parameters
@@ -48,7 +52,17 @@ class Report:
 
         self.data = []
         for fp in fp_xlsx:
-            self.data.append(pd.read_excel(fp))
+            iskip = 0
+            df = pd.read_excel(fp, skiprows=iskip)
+            missing = [x for x in self.REQ_COL if x not in df]
+
+            # schedule reports have weird headers
+            while any(missing):
+                iskip += 1
+                df = pd.read_excel(fp, skiprows=iskip)
+                missing = [x for x in self.REQ_COL if x not in df]
+
+            self.data.append(df)
 
         self.data = pd.concat(self.data, ignore_index=True)
 
