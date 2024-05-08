@@ -1,0 +1,25 @@
+nrel\_p3.analysis.Analysis
+==========================
+
+.. currentmodule:: nrel_p3.analysis
+
+.. autoclass:: Analysis
+   :members:
+   :show-inheritance:
+   :inherited-members:
+   :special-members: __call__, __add__, __mul__
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Analysis.get_spend_table
+      ~Analysis.get_worker_spend
+   
+   
+
+   
+   
+   

@@ -1,0 +1,34 @@
+nrel\_p3.pricing\_tool.Estimate
+===============================
+
+.. currentmodule:: nrel_p3.pricing_tool
+
+.. autoclass:: Estimate
+   :members:
+   :show-inheritance:
+   :inherited-members:
+   :special-members: __call__, __add__, __mul__
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Estimate.charge_code_regex
+      ~Estimate.get_employee_id
+      ~Estimate.plan
+      ~Estimate.remap_charge_codes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Estimate.DROP_LINE_ITEMS
+      ~Estimate.rates
+   
+   

@@ -1,0 +1,31 @@
+nrel\_p3.analysis
+=================
+
+.. automodule:: nrel_p3.analysis
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Analysis
+   
+   
+
+   
+   
+   
+
+
+

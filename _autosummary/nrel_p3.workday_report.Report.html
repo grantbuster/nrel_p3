@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nrel_p3.workday_report.Report &mdash; nrel_p3 0.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=7026087e"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="nrel_p3.workday_report" href="nrel_p3.workday_report.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            nrel_p3
+          </a>
+              <div class="version">
+                0.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../example.html">Example</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example.html#exporting-pricing-tool-estimate">Exporting Pricing Tool Estimate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example.html#exporting-workday-labor-report">Exporting Workday Labor Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="nrel_p3.html">API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.analysis.html">nrel_p3.analysis</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.analysis.Analysis.html">nrel_p3.analysis.Analysis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.analysis.Analysis.html#nrel_p3.analysis.Analysis"><code class="docutils literal notranslate"><span class="pre">Analysis</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.pricing_tool.html">nrel_p3.pricing_tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.pricing_tool.Estimate.html">nrel_p3.pricing_tool.Estimate</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.pricing_tool.Estimate.html#nrel_p3.pricing_tool.Estimate"><code class="docutils literal notranslate"><span class="pre">Estimate</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.utilities.html">nrel_p3.utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.utilities.employee_id_regex.html">nrel_p3.utilities.employee_id_regex</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.utilities.employee_id_regex.html#nrel_p3.utilities.employee_id_regex"><code class="docutils literal notranslate"><span class="pre">employee_id_regex()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.utilities.filter.html">nrel_p3.utilities.filter</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.utilities.filter.html#nrel_p3.utilities.filter"><code class="docutils literal notranslate"><span class="pre">filter()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.version.html">nrel_p3.version</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="nrel_p3.workday_report.html">nrel_p3.workday_report</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">nrel_p3.workday_report.Report</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#nrel_p3.workday_report.Report"><code class="docutils literal notranslate"><span class="pre">Report</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">nrel_p3</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="nrel_p3.html">nrel_p3</a></li>
+          <li class="breadcrumb-item"><a href="nrel_p3.workday_report.html">nrel_p3.workday_report</a></li>
+      <li class="breadcrumb-item active">nrel_p3.workday_report.Report</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/grantbuster/nrel_p3/blob/main/docs/source/_autosummary/nrel_p3.workday_report.Report.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nrel-p3-workday-report-report">
+<h1>nrel_p3.workday_report.Report<a class="headerlink" href="#nrel-p3-workday-report-report" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Report</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp_xlsx</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/workday_report.html#Report"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.workday_report.Report" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Interface for workday task number reports</p>
+<dl class="simple">
+<dt>To export report from workday, search the following:</dt><dd><p>“Task Number Report for Task Managers - Not Grouped”</p>
+</dd>
+</dl>
+<p>Then enter a conservative start date and end date, enter your charge code
+of interest, and then press OK. In the top right you should see an option
+to expor the result to Excel.</p>
+<p>To automatically create a report on a preset schedule, navigate the
+following flow:</p>
+<p>Workday -&gt; Menu -&gt; Reports -&gt; Tools -&gt; Schedule a Report -&gt; By Report Type
+-&gt; Custom Reports -&gt; Task Number Report for Task Managers - Not Grouped</p>
+<p>Then select Run Frequency = “Weekly Recurrence”, do not check “Populate
+Default Prompt Values”, then press OK.</p>
+<p>Finally, fill out the Report Criteria, Schedule, and Output to fit your
+preferences and press OK.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>fp_xlsx</strong> (<em>str</em>) – Filepath to NREL workday export from the following report:
+“Task Number Report for Task Managers - Not Grouped”.
+Can also be a list of these reports or a string with a wild*card
+for multiple reports (one for each charge code)</p>
+</dd>
+</dl>
+<p class="rubric">Methods</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.actuals" title="nrel_p3.workday_report.Report.actuals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuals</span></code></a>([filters])</p></td>
+<td><p>Run the calculation of actual charges through time</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.add_rates" title="nrel_p3.workday_report.Report.add_rates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_rates</span></code></a>(rates)</p></td>
+<td><p>Workday tables only have hours charged by default.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.charge_code_regex" title="nrel_p3.workday_report.Report.charge_code_regex"><code class="xref py py-obj docutils literal notranslate"><span class="pre">charge_code_regex</span></code></a>(text)</p></td>
+<td><p>Get the charge code &quot;12765.07.01.01&quot; from text if the charge code is in the format: &quot;- &gt; 12765 - 07.01.01-Topic 5.1 Downscalin (Starts: ..)&quot;</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">REQ_COL</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.eid_map" title="nrel_p3.workday_report.Report.eid_map"><code class="xref py py-obj docutils literal notranslate"><span class="pre">eid_map</span></code></a></p></td>
+<td><p>worker_name}</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.missing_rates" title="nrel_p3.workday_report.Report.missing_rates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_rates</span></code></a></p></td>
+<td><p>Get a list of SLR names that are missing their rates (cost per hour).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#nrel_p3.workday_report.Report.worker_map" title="nrel_p3.workday_report.Report.worker_map"><code class="xref py py-obj docutils literal notranslate"><span class="pre">worker_map</span></code></a></p></td>
+<td><p>employee_id}</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.charge_code_regex">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">charge_code_regex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/workday_report.html#Report.charge_code_regex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.workday_report.Report.charge_code_regex" title="Link to this definition"></a></dt>
+<dd><p>Get the charge code “12765.07.01.01” from text if the charge code is
+in the format: “- &gt; 12765 - 07.01.01-Topic 5.1 Downscalin (Starts: ..)”</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>out</strong> (<em>str | None</em>) – Charge code string or None if not found</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.worker_map">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">worker_map</span></span><a class="headerlink" href="#nrel_p3.workday_report.Report.worker_map" title="Link to this definition"></a></dt>
+<dd><p>employee_id}</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Get a dictionary mapping {worker_name</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.eid_map">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">eid_map</span></span><a class="headerlink" href="#nrel_p3.workday_report.Report.eid_map" title="Link to this definition"></a></dt>
+<dd><p>worker_name}</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Get a dictionary mapping {employee_id</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.add_rates">
+<span class="sig-name descname"><span class="pre">add_rates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rates</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/workday_report.html#Report.add_rates"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.workday_report.Report.add_rates" title="Link to this definition"></a></dt>
+<dd><p>Workday tables only have hours charged by default. Take in a rates
+table from the pricing tool to calculate actual costs.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>rates</strong> (<em>dict | pd.Series</em>) – Input labor rates here either from
+nrel_p3.pricing_tool.Estimate.rates or with a custom dict, e.g.,
+{‘NEW_SLR’: 100}</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.missing_rates">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">missing_rates</span></span><a class="headerlink" href="#nrel_p3.workday_report.Report.missing_rates" title="Link to this definition"></a></dt>
+<dd><p>Get a list of SLR names that are missing their rates
+(cost per hour). Use <code class="docutils literal notranslate"><span class="pre">add_rates()</span></code> to add these rates to estimate
+labor costs.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nrel_p3.workday_report.Report.actuals">
+<span class="sig-name descname"><span class="pre">actuals</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/workday_report.html#Report.actuals"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.workday_report.Report.actuals" title="Link to this definition"></a></dt>
+<dd><p>Run the calculation of actual charges through time</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>filters</strong> (<em>dict | None</em>) – Set of filters where keys are columns in the workday report file
+and values are one or more items to sub select in the column. For
+example,
+<code class="docutils literal notranslate"><span class="pre">filters={'charge_code':</span> <span class="pre">'12765.07.01.01',</span> <span class="pre">'eid':</span> <span class="pre">'19864'}</span></code>
+will return data for a single charge code for a single person.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>actuals</strong> (<em>pd.DataFrame</em>) – An aggregated version of the workday actuals table with Year-Month
+index and columns: actual_cost, actual_cost_cumulative</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="nrel_p3.workday_report.html" class="btn btn-neutral float-left" title="nrel_p3.workday_report" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

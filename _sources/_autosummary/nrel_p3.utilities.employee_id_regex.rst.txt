@@ -1,0 +1,6 @@
+nrel\_p3.utilities.employee\_id\_regex
+======================================
+
+.. currentmodule:: nrel_p3.utilities
+
+.. autofunction:: employee_id_regex

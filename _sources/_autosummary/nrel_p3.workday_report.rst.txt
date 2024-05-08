@@ -1,0 +1,31 @@
+nrel\_p3.workday\_report
+========================
+
+.. automodule:: nrel_p3.workday_report
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Report
+   
+   
+
+   
+   
+   
+
+
+

@@ -1,0 +1,35 @@
+nrel\_p3.workday\_report.Report
+===============================
+
+.. currentmodule:: nrel_p3.workday_report
+
+.. autoclass:: Report
+   :members:
+   :show-inheritance:
+   :inherited-members:
+   :special-members: __call__, __add__, __mul__
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Report.actuals
+      ~Report.add_rates
+      ~Report.charge_code_regex
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Report.REQ_COL
+      ~Report.eid_map
+      ~Report.missing_rates
+      ~Report.worker_map
+   
+   

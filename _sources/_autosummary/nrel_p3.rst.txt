@@ -1,0 +1,34 @@
+﻿nrel\_p3
+========
+
+.. automodule:: nrel_p3
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   nrel_p3.analysis
+   nrel_p3.pricing_tool
+   nrel_p3.utilities
+   nrel_p3.version
+   nrel_p3.workday_report
+

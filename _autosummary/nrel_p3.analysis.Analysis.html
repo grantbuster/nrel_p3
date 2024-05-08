@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nrel_p3.analysis.Analysis &mdash; nrel_p3 0.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=7026087e"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="nrel_p3.pricing_tool" href="nrel_p3.pricing_tool.html" />
+    <link rel="prev" title="nrel_p3.analysis" href="nrel_p3.analysis.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            nrel_p3
+          </a>
+              <div class="version">
+                0.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../example.html">Example</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example.html#exporting-pricing-tool-estimate">Exporting Pricing Tool Estimate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example.html#exporting-workday-labor-report">Exporting Workday Labor Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="nrel_p3.html">API reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="nrel_p3.analysis.html">nrel_p3.analysis</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">nrel_p3.analysis.Analysis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#nrel_p3.analysis.Analysis"><code class="docutils literal notranslate"><span class="pre">Analysis</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.pricing_tool.html">nrel_p3.pricing_tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.pricing_tool.Estimate.html">nrel_p3.pricing_tool.Estimate</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.pricing_tool.Estimate.html#nrel_p3.pricing_tool.Estimate"><code class="docutils literal notranslate"><span class="pre">Estimate</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.utilities.html">nrel_p3.utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.utilities.employee_id_regex.html">nrel_p3.utilities.employee_id_regex</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.utilities.employee_id_regex.html#nrel_p3.utilities.employee_id_regex"><code class="docutils literal notranslate"><span class="pre">employee_id_regex()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.utilities.filter.html">nrel_p3.utilities.filter</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.utilities.filter.html#nrel_p3.utilities.filter"><code class="docutils literal notranslate"><span class="pre">filter()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.version.html">nrel_p3.version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nrel_p3.workday_report.html">nrel_p3.workday_report</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="nrel_p3.workday_report.Report.html">nrel_p3.workday_report.Report</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="nrel_p3.workday_report.Report.html#nrel_p3.workday_report.Report"><code class="docutils literal notranslate"><span class="pre">Report</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">nrel_p3</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="nrel_p3.html">nrel_p3</a></li>
+          <li class="breadcrumb-item"><a href="nrel_p3.analysis.html">nrel_p3.analysis</a></li>
+      <li class="breadcrumb-item active">nrel_p3.analysis.Analysis</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/grantbuster/nrel_p3/blob/main/docs/source/_autosummary/nrel_p3.analysis.Analysis.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nrel-p3-analysis-analysis">
+<h1>nrel_p3.analysis.Analysis<a class="headerlink" href="#nrel-p3-analysis-analysis" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="nrel_p3.analysis.Analysis">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Analysis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pt_estimate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wd_report</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/analysis.html#Analysis"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.analysis.Analysis" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Analyze pricing tool estimate versus worday report.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pt_estimate</strong> (<em>nrel_p3.pricing_tool.Estimate</em>) – Initialized pricing tool Estimate object.</p></li>
+<li><p><strong>wd_report</strong> (<em>nrel_p3.workday_report.Report</em>) – Initialized workday report object</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Methods</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#nrel_p3.analysis.Analysis.get_spend_table" title="nrel_p3.analysis.Analysis.get_spend_table"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_spend_table</span></code></a>([filters])</p></td>
+<td><p>Get a timeseries spend table for the whole project, one charge code, or by person</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#nrel_p3.analysis.Analysis.get_worker_spend" title="nrel_p3.analysis.Analysis.get_worker_spend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_worker_spend</span></code></a>([filters])</p></td>
+<td><p>Get a timeseries spend table with worker breakdowns.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="nrel_p3.analysis.Analysis.get_spend_table">
+<span class="sig-name descname"><span class="pre">get_spend_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/analysis.html#Analysis.get_spend_table"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.analysis.Analysis.get_spend_table" title="Link to this definition"></a></dt>
+<dd><p>Get a timeseries spend table for the whole project, one charge code,
+or by person</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>filters</strong> (<em>dict | None</em>) – Set of filters where keys are columns in the pt_estimate and
+wd_report data and values are one or more items to sub select in
+the column. For example,
+<code class="docutils literal notranslate"><span class="pre">filters={'charge_code':</span> <span class="pre">'12765.07.01.01',</span> <span class="pre">'eid':</span> <span class="pre">'19864'}</span></code>
+will return data for a single charge code for a single person.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>df</strong> (<em>pd.DataFrame</em>) – Timeseries cost table with columns: ‘Year-Month’, ‘planned_cost’,
+‘planned_cost_cumulative’, ‘actual_cost’, ‘actual_cost_cumulative’</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nrel_p3.analysis.Analysis.get_worker_spend">
+<span class="sig-name descname"><span class="pre">get_worker_spend</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/nrel_p3/analysis.html#Analysis.get_worker_spend"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#nrel_p3.analysis.Analysis.get_worker_spend" title="Link to this definition"></a></dt>
+<dd><p>Get a timeseries spend table with worker breakdowns.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>filters</strong> (<em>dict | None</em>) – Set of filters where keys are columns in the pt_estimate and
+wd_report data and values are one or more items to sub select in
+the column. For example,
+<code class="docutils literal notranslate"><span class="pre">filters={'charge_code':</span> <span class="pre">'12765.07.01.01'}</span></code>
+will return data for a single charge code</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>df</strong> (<em>pd.DataFrame</em>) – Timeseries cost table with columns: ‘Year-Month’, ‘planned_cost’,
+‘planned_cost_cumulative’, ‘actual_cost’, ‘actual_cost_cumulative’,
+‘eid’, ‘worker’</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="nrel_p3.analysis.html" class="btn btn-neutral float-left" title="nrel_p3.analysis" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="nrel_p3.pricing_tool.html" class="btn btn-neutral float-right" title="nrel_p3.pricing_tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

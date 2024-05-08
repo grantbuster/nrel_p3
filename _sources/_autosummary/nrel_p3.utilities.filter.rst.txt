@@ -1,0 +1,6 @@
+nrel\_p3.utilities.filter
+=========================
+
+.. currentmodule:: nrel_p3.utilities
+
+.. autofunction:: filter
